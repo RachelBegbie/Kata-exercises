@@ -9,7 +9,7 @@ function testTwo(string){
 let array = string.split(' ');
 let sumInt = 0;
 for(let i = 0; i<array.length; i++){
-    sumInt += array[i];
+    sumInt += parseInt(array[i]);
 }
 return sumInt; 
     } 
